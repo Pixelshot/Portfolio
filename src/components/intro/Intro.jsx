@@ -1,5 +1,5 @@
-import "./intro.css";
-import React from "react";
+import './intro.css';
+import React from 'react';
 
 const Intro = () => {
   return (
@@ -11,8 +11,15 @@ const Intro = () => {
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Ai Enthusiast</div>
+              <div className="i-title-item">Fitness Enthusiast</div>
               <div className="i-title-item">Web Developer</div>
             </div>
+          </div>
+          <div className="i-desc">
+            Children of the sun, see your time has just begun, searching for
+            your ways, through adventures every day. Every day and night, with
+            the condor in flight, with all your friends in tow, you search for
+            the Cities of Gold.
           </div>
         </div>
       </div>

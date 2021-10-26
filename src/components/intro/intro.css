@@ -5,10 +5,17 @@
 
 .i-left {
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .i-left-wrapper {
   padding: 50px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .i-intro {
@@ -27,11 +34,7 @@
 
 .i-title-wrapper {
   height: 100%;
-  animation: move 4s ease-in-out infinite alternate;
-}
-
-.i-title-item {
-  transition-delay: 4s;
+  animation: move 8s ease-in-out infinite alternate;
 }
 
 @keyframes move {
@@ -39,13 +42,13 @@
     transform: translateY(-50px);
   }
   50% {
-    transform: translateY(-50px);
+    transform: translateY(-100px);
   }
   75% {
-    transform: translateY(-50px);
+    transform: translateY(-150px);
   }
   100% {
-    transform: translateY(-50px);
+    transform: translateY(-200px);
   }
 }
 
