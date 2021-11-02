@@ -1,7 +1,18 @@
-const Product = () => {
+import './product.css';
+
+const Product = ({ img, link }) => {
   return (
     <div>
-      <h1>Product Component</h1>
+      <div className="pdt">
+        <div className="pdt-browser">
+          <div className="pdt-circle"></div>
+          <div className="pdt-circle"></div>
+          <div className="pdt-circle"></div>
+        </div>
+        <a href={link} target="_blank" rel="noreferrer" className="pdt-img">
+          <img src={img} alt="" className="pdt-img" />
+        </a>
+      </div>
     </div>
   );
 };
